@@ -1,0 +1,15 @@
+D:\lessn\4\itog_job\obj\Debug\net6.0\itog_job.csproj.AssemblyReference.cache
+D:\lessn\4\itog_job\obj\Debug\net6.0\itog_job.GeneratedMSBuildEditorConfig.editorconfig
+D:\lessn\4\itog_job\obj\Debug\net6.0\itog_job.AssemblyInfoInputs.cache
+D:\lessn\4\itog_job\obj\Debug\net6.0\itog_job.AssemblyInfo.cs
+D:\lessn\4\itog_job\obj\Debug\net6.0\itog_job.csproj.CoreCompileInputs.cache
+D:\lessn\4\itog_job\bin\Debug\net6.0\itog_job.exe
+D:\lessn\4\itog_job\bin\Debug\net6.0\itog_job.deps.json
+D:\lessn\4\itog_job\bin\Debug\net6.0\itog_job.runtimeconfig.json
+D:\lessn\4\itog_job\bin\Debug\net6.0\itog_job.dll
+D:\lessn\4\itog_job\bin\Debug\net6.0\itog_job.pdb
+D:\lessn\4\itog_job\obj\Debug\net6.0\itog_job.dll
+D:\lessn\4\itog_job\obj\Debug\net6.0\refint\itog_job.dll
+D:\lessn\4\itog_job\obj\Debug\net6.0\itog_job.pdb
+D:\lessn\4\itog_job\obj\Debug\net6.0\itog_job.genruntimeconfig.cache
+D:\lessn\4\itog_job\obj\Debug\net6.0\ref\itog_job.dll
