@@ -1,6 +1,6 @@
 ﻿string[] arr = { "hello", "2", "world", "expention", "10", "4930", "-23", "ae" };
 
-
+//Создание нового массива с отобранными значениями по условию
 string[] SortArrayText(string[] array)
 {
     string[] arrSort = new string[array.Length];
@@ -15,19 +15,20 @@ string[] SortArrayText(string[] array)
     return arrSort;
 }
 
+//Получаем кол-во не пустых элементов в массиве строк
 int CountReturnNull(string[] array)
 {
-    int count =0;
+    int count = 0;
     for (int j = 0; j < array.Length; j++)
     {
         if (array[j] != null) count++;
     }
     return count;
 }
-
+// Пересоздание массива без пустых значений
 string[] EditingArray(string[] arrayResult)
 {
-    int count = CountReturn(arrayResult);
+    int count = CountReturnNull(arrayResult);
     string[] arrNewResult = new string[count];
     int l = 0;
     for (int i = 0; i < arrayResult.Length; i++)
@@ -40,17 +41,20 @@ string[] EditingArray(string[] arrayResult)
     return arrNewResult;
 }
 
+// Выод массива в консоль
 void PrintArray(string[] arr)
 {
-    Console.Write("[");
+    Console.Write("['");
     for (int i = 0; i < arr.Length; i++)
     {
-        if (i != arr.Length - 1) Console.Write(arr[i] + ", ");
+        if (i != arr.Length - 1) Console.Write(arr[i] + "', '");
         else Console.Write(arr[i]);
     }
-    Console.Write("]");
+    Console.Write("']");
 }
 
 string[] newArray = SortArrayText(arr);
 string[] result = EditingArray(newArray);
+PrintArray(arr);
+System.Console.Write(" -> ");
 PrintArray(result);
