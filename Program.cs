@@ -15,6 +15,30 @@ string[] SortArrayText(string[] array)
     return arrSort;
 }
 
+int CountReturnNull(string[] array)
+{
+    int count =0;
+    for (int j = 0; j < array.Length; j++)
+    {
+        if (array[j] != null) count++;
+    }
+    return count;
+}
+
+string[] EditingArray(string[] arrayResult)
+{
+    int count = CountReturn(arrayResult);
+    string[] arrNewResult = new string[count];
+    int l = 0;
+    for (int i = 0; i < arrayResult.Length; i++)
+    {
+        if (arrayResult[i] != null)
+        {
+            arrNewResult[l++] = arrayResult[i];
+        }
+    }
+    return arrNewResult;
+}
 
 void PrintArray(string[] arr)
 {
@@ -28,4 +52,5 @@ void PrintArray(string[] arr)
 }
 
 string[] newArray = SortArrayText(arr);
-PrintArray(newArray);
+string[] result = EditingArray(newArray);
+PrintArray(result);
