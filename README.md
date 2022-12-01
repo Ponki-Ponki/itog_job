@@ -76,5 +76,5 @@ void PrintArray(string[] arr)
 ## Блок схема
 Блок схема для данного кода:
 ---
-![Блок-схема](/4/itog_job/diagram.png "Блок-схема решения данной задачи")
+![Блок-схема](https://github.com/Ponki-Ponki/itog_job/blob/main/diagram.png "Блок-схема решения данной задачи")
 
