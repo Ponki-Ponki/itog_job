@@ -13,7 +13,7 @@ string[] SortArrayText(string[] array)
         }
     }
     return arrSort;
-}
+} 
 
 //Получаем кол-во не пустых элементов в массиве строк
 int CountReturnNull(string[] array)
@@ -41,7 +41,7 @@ string[] EditingArray(string[] arrayResult)
     return arrNewResult;
 }
 
-// Выод массива в консоль
+// Выход массива в консоль
 void PrintArray(string[] arr)
 {
     Console.Write("['");
@@ -55,6 +55,7 @@ void PrintArray(string[] arr)
 
 string[] newArray = SortArrayText(arr);
 string[] result = EditingArray(newArray);
+System.Console.WriteLine("Создание нового массива где значения не более 3х символов:");
 PrintArray(arr);
 System.Console.Write(" -> ");
 PrintArray(result);
