@@ -1,5 +1,6 @@
-﻿string[] arr = { "hello", "2", "world", "expention", "10", "4930", "-23", "ae" };
-
+﻿string[] arr1 = { "hello", "2", "world", "expention", "10", "4930", "-23", "ae" };
+string[] arr2 = { "Russian", "Denmark", "Kazan" };
+string[] arr3 = { "1231", "435234", "-5", "computer science" };
 //Создание нового массива с отобранными значениями по условию
 string[] SortArrayText(string[] array)
 {
@@ -53,9 +54,25 @@ void PrintArray(string[] arr)
     Console.Write("']");
 }
 
-string[] newArray = SortArrayText(arr);
-string[] result = EditingArray(newArray);
+string[] newArray1 = SortArrayText(arr1);
+string[] result1 = EditingArray(newArray1);
 System.Console.WriteLine("Создание нового массива где значения не более 3х символов:");
-PrintArray(arr);
+PrintArray(arr1);
 System.Console.Write(" -> ");
-PrintArray(result);
+PrintArray(result1);
+System.Console.WriteLine();
+
+string[] newArray2 = SortArrayText(arr2);
+string[] result2 = EditingArray(newArray2);
+System.Console.WriteLine("Создание нового массива где значения не более 3х символов:");
+PrintArray(arr2);
+System.Console.Write(" -> ");
+PrintArray(result2);
+System.Console.WriteLine();
+
+string[] newArray3 = SortArrayText(arr3);
+string[] result3 = EditingArray(newArray3);
+System.Console.WriteLine("Создание нового массива где значения не более 3х символов:");
+PrintArray(arr3);
+System.Console.Write(" -> ");
+PrintArray(result3);
